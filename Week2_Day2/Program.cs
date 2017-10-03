@@ -10,6 +10,12 @@ namespace Week2_Day2
     {
         static void Main(string[] args)
         {
+            //Loops
+
+
+
+
+
         }
     }
 }
