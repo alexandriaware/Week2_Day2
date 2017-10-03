@@ -11,6 +11,7 @@ namespace Week2_Day2
         static void Main(string[] args)
         {
             //Loops
+            //For loops
 
             //for(int i = 1; i <=10; i++)
             //{
@@ -31,28 +32,43 @@ namespace Week2_Day2
             //}
 
 
-            //Do it!
-            string weekdays = "Monday Tuesday Wednesday Thursday";
-            string[] days = weekdays.Split();
+            ////Do it!
+            //string weekdays = "Monday Tuesday Wednesday Thursday";
+            //string[] days = weekdays.Split();
 
-            for(int i = 0; i < days.Length; i++)
+            //for(int i = 0; i < days.Length; i++)
+            //{
+            //    Console.WriteLine(days[i]);
+            //}
+
+
+            //string beginning = "Once upon a time";
+            //string[] storyWords = beginning.Split();
+
+            //Array.Reverse(storyWords);
+
+            //for(int i = 0; i < storyWords.Length; i++)
+            //{
+            //    Console.WriteLine(storyWords[i]);
+            //}
+
+
+            //foreach loop
+            //string[] months = { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" };
+
+            //foreach (string month in months)
+            //{
+            //    Console.WriteLine(month);
+            //}
+
+
+
+            string[] bands = { "Imagine Dragons", "Ed Sheeran", "Fall Out Boy", "Florence and The Machine", "HaleStorm" };
+
+            foreach(string artist in bands)
             {
-                Console.WriteLine(days[i]);
+                Console.WriteLine(artist);
             }
-
-
-            string beginning = "Once upon a time";
-            string[] storyWords = beginning.Split();
-
-            Array.Reverse(storyWords);
-
-            for(int i = 0; i < storyWords.Length; i++)
-            {
-                Console.WriteLine(storyWords[i]);
-            }
-
-
-
 
 
 
