@@ -63,14 +63,39 @@ namespace Week2_Day2
 
 
 
-            string[] bands = { "Imagine Dragons", "Ed Sheeran", "Fall Out Boy", "Florence and The Machine", "HaleStorm" };
+            //string[] bands = { "Imagine Dragons", "Ed Sheeran", "Fall Out Boy", "Florence and The Machine", "HaleStorm" };
 
-            foreach(string artist in bands)
+            //foreach(string artist in bands)
+            //{
+            //    Console.WriteLine(artist);
+            //}
+
+
+            ////Do it!
+            //string[] menu = { "Ramen", "Peanut Butter", "Strawberries", "Brie", "Veggies" };
+            
+            //foreach(string food in menu)
+            //{
+            //    Console.WriteLine(food);
+            //}
+
+
+
+            //int[] numbers = { 3, 5, 7, 11, 13, 31 };
+
+            //foreach(int luck in numbers)
+            //{
+            //    Console.WriteLine("Your Lucky Number is: " + luck);
+            //}
+
+
+            int counter = 0;
+            while(counter < 10)
             {
-                Console.WriteLine(artist);
+                Console.WriteLine(counter);
+                counter++;
+                Console.WriteLine("\a");
             }
-
-
 
 
 
