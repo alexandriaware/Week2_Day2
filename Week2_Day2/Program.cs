@@ -164,16 +164,49 @@ namespace Week2_Day2
             //Console.WriteLine("Thank you for using our GPS calculator.");
 
 
-            for(int i = 1; i <= 20; i++)
+            //for(int i = 1; i <= 20; i++)
+            //{
+            //    if(i % 13 == 0)
+            //    {
+            //        break;
+            //    }
+            //    Console.WriteLine(i);
+            //}
+
+            //Console.WriteLine("The loop has finished.");
+
+
+
+
+            //for (int i = 1; i <= 4; i++) //four lines
+            //{
+            //    for (int j = 1; j <= 8; j++) //numbers 1-8 printed
+            //    {
+            //        Console.Write(j); //row of 1-8
+            //    }
+            //    Console.WriteLine(); //next row
+            //}
+
+
+
+            //cascading code!! try entering a number in the window
+            int n = int.Parse(Console.ReadLine());
+            for (int row = 1; row <= n; row++)
             {
-                if(i % 13 == 0)
+                for (int col = 1; col <= row; col++)
                 {
-                    break;
+                    Console.Write(col + " ");
                 }
-                Console.WriteLine(i);
+                Console.WriteLine();
             }
 
-            Console.WriteLine("The loop has finished.");
+
+
+
+
+
+
+
 
 
 
