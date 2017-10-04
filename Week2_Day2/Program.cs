@@ -73,7 +73,7 @@ namespace Week2_Day2
 
             ////Do it!
             //string[] menu = { "Ramen", "Peanut Butter", "Strawberries", "Brie", "Veggies" };
-            
+
             //foreach(string food in menu)
             //{
             //    Console.WriteLine(food);
@@ -89,53 +89,59 @@ namespace Week2_Day2
             //}
 
 
-            int counter = 0;
-            while(counter < 10)
+            //int counter = 0;
+            //while(counter < 10)
+            //{
+            //    Console.WriteLine(counter);
+            //    counter++;
+            //    Console.WriteLine("\a");
+            //}
+
+
+            //for (int i = 10; i > 0; i--)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+
+
+            //Console.WriteLine("Do you want to play the game? (YES/NO)");
+            //string playAgain = Console.ReadLine();
+            //while(playAgain == "YES")
+            //{
+            //    Console.WriteLine("It's a rematch!");
+            //    Console.WriteLine("Do you want to play again? (YES/NO)");
+            //    playAgain = Console.ReadLine();
+            //}
+
+
+            //Console.WriteLine("Would you like to check the patient in for their appointment? (YES/NO)");
+            //string answer = Console.ReadLine().ToUpper();
+            //while(answer == "NO" || answer == "YES")
+            //{
+            //    Console.WriteLine("PATIENT CHECK IN SYSTEM");
+            //    Console.WriteLine("Please enter your full name.");
+            //    answer = Console.ReadLine();
+            //    Console.WriteLine("Please enter your 6-digit patient ID");
+            //    answer = Console.ReadLine();
+            //    Console.WriteLine("Please enter your appointment time");
+            //    answer = Console.ReadLine();
+            //    Console.WriteLine("Would you like to check in another patient?");
+            //    answer = Console.ReadLine().ToUpper();
+
+            //}
+
+            string playAgain;
+            do
             {
-                Console.WriteLine(counter);
-                counter++;
-                Console.WriteLine("\a");
+                Console.WriteLine("Great game!");
+                Console.WriteLine("Do you want to play again?");
+                playAgain = Console.ReadLine().ToUpper();
             }
+            while (playAgain == "YES");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            //for(int i = 0; i <= 10; i++)
-            //{
-            //    //Console.WriteLine(i);
-            //}
-
-            //for (int counter = 50; counter <= 100; counter++)
-            //{
-            //    //Console.WriteLine(counter);
-            //}
-
-
-            //string greetings = "My name is Ali";
-            //string[] words = greetings.Split();
-
-            //for (int i =0 < words.Length; i++)
-            //{
-            //    Console.WriteLine(words[i]);
-            //}
-
-
-
+            Console.WriteLine("Thanks for playing the game.");
+            
         }
     }
 }
